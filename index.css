@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    width: 100%;
+    height: 95vh;
+    background-color: whitesmoke;
+}
+#firstLine{
+    margin-top: 5vw;
+    width: 100%;
+    height: 2vw;
+    /* background-color: red; */
+    text-align:center;
+}
+#Heading{
+    width: 100%;
+    height: 4vw;
+    text-align: center;
+    /* background-color: green; */
+}
+#container{
+    width: 60%;
+    height: 20vw;
+    margin-left:20vw;
+    margin-top: 5vw;
+   
+    /* background-color: red; */
+    background-image: linear-gradient(90deg,rgba(137, 233, 137,0.7),rgb(104, 198, 205),rgba(239, 122, 239,0.7),rgba(235, 79, 79,0.7),rgba(255, 165, 0,0.7),rgba(227, 227, 47,0.7));
+}
+#lastLine{
+    width: 15vw;
+    height: 2vw;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 45vw;
+    border-bottom: solid black 2px;
+}
+.con{
+    transform: translateY(40px);
+    width: 25vw;
+    height:15vw;
+    background-color: white;
+    float: left;
+}
+img{
+    width: 1vw;
+    height: 100%;
+    float: left;
+    margin-left: 0.2vw;
+}
+#stars{
+    width: 90%;
+    height: 1vw;
+    /* background-color: red; */
+    transform: translateY(20px);
+    margin-left: 2vw;
+}
+#text{
+    width: 85%;
+    height: 40%;
+   text-indent: 0.5vw; 
+   margin-top: 2vw;
+   /* background-color: red; */
+   margin-left: 1.5vw;
+   transform: translateY(15px);
+}
+#info{
+    width: 100%;
+    height: 30%;
+    margin-top: 1.2vw;
+    /* background-color: aquamarine; */
+}
+.img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 100%;
+    margin-top: 0.7vw;
+    margin-left: 0.9vw;
+    float: left;
+}
+.infoCon{
+    width: 75%;
+    /* background-color: red; */
+    transform: translateY(10px);
+    margin-left: 5vw;
+}
+.fir{
+    margin-left: -10vw;
+}
+.sec{
+    margin-left: 2vw;
+    float: left;
+}
+.thr{
+    float: right;
+    margin-right: -10vw;
+}
